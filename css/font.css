@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'MCW XX Light';
+    font-weight: 300;
+    src: url('fonts/MCWXXLight.eot');
+    src: url('fonts/MCWXXLight.eot') format('embedded-opentype'),
+         url('fonts/MCWXXLight.woff2') format('woff2'),
+         url('fonts/MCWXXLight.woff') format('woff'),
+         url('fonts/MCWXXLight.ttf') format('truetype'),
+         url('fonts/MCWXXLight.svg#MCWXXLight') format('svg');
+}
+@font-face {
+    font-family: 'MCW XX Regular';
+    font-weight: 400;
+    src: url('fonts/MCWXXRegular.eot');
+    src: url('fonts/MCWXXRegular.eot') format('embedded-opentype'),
+         url('fonts/MCWXXRegular.woff2') format('woff2'),
+         url('fonts/MCWXXRegular.woff') format('woff'),
+         url('fonts/MCWXXRegular.ttf') format('truetype'),
+         url('fonts/MCWXXRegular.svg#MCWXXRegular') format('svg');
+}
+@font-face {
+    font-family: 'MCW XX Medium';
+    font-weight: 500;
+    src: url('fonts/MCWXXMedium.eot');
+    src: url('fonts/MCWXXMedium.eot') format('embedded-opentype'),
+        url('fonts/MCWXXMedium.woff2') format('woff2'),
+         url('fonts/MCWXXMedium.woff') format('woff'),
+         url('fonts/MCWXXMedium.ttf') format('truetype'),
+         url('fonts/MCWXXMedium.svg#MCWXXMedium') format('svg');
+}
+@font-face {
+    font-family: 'MCW XX Bold';
+    font-weight: 700;
+    src: url('fonts/MCWXXBold.eot');
+    src: url('fonts/MCWXXBold.eot') format('embedded-opentype'),
+         url('fonts/MCWXXBold.woff2') format('woff2'),
+         url('fonts/MCWXXBold.woff') format('woff'),
+         url('fonts/MCWXXBold.ttf') format('truetype'),
+         url('fonts/MCWXXBold.svg#MCWXXBold') format('svg');
+}
+@font-face {
+    font-family: 'MCW XX ExtraBold';
+    font-weight: 800;
+    src: url('fonts/MCWXXExtraBold.eot');
+    src: url('fonts/MCWXXExtraBold.eot') format('embedded-opentype'),
+         url('fonts/MCWXXExtraBold.woff2') format('woff2'),
+         url('fonts/MCWXXExtraBold.woff') format('woff'),
+         url('fonts/MCWXXExtraBold.ttf') format('truetype'),
+         url('fonts/MCWXXExtraBold.svg#MCWXXExtraBold') format('svg');
+}
+@font-face {
+    font-family: ALSRubl;
+    src: url(fonts/rouble.ttf), url(fonts/rouble.otf), url(fonts/rouble.eot), url(fonts/rouble.woff), url(fonts/rouble.svg); 
+} 
