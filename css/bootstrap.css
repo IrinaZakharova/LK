@@ -1102,7 +1102,6 @@ a {
 }
 a:hover,
 a:focus {
-  color: #23527c;
   text-decoration: underline;
 }
 a:focus {
@@ -5826,17 +5825,12 @@ button.list-group-item-danger.active:focus {
   font-weight: bold;
   line-height: 1;
   color: #000;
-  text-shadow: 0 1px 0 #fff;
-  filter: alpha(opacity=20);
-  opacity: .2;
 }
 .close:hover,
 .close:focus {
   color: #000;
   text-decoration: none;
   cursor: pointer;
-  filter: alpha(opacity=50);
-  opacity: .5;
 }
 button.close {
   -webkit-appearance: none;
@@ -5844,6 +5838,34 @@ button.close {
   cursor: pointer;
   background: transparent;
   border: 0;
+  height: 12px;	
+  width: 12px;
+  position: relative;
+}
+button.close::before, button.close::after {
+  content: '';
+  width: 2px;
+  height: 15px;
+  background: #9EA4AC;
+  display: block;
+  position: absolute;
+  top: -2px;
+}
+button.close::before {
+  right: 5px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+button.close::after {
+  left: 5px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 .modal-open {
   overflow: hidden;
@@ -5891,7 +5913,7 @@ button.close {
           background-clip: padding-box;
   border: 1px solid #999;
   border: 1px solid rgba(0, 0, 0, .2);
-  border-radius: 6px;
+  border-radius: 2px;
   outline: 0;
   -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
           box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
@@ -5914,8 +5936,7 @@ button.close {
   opacity: .5;
 }
 .modal-header {
-  padding: 15px;
-  border-bottom: 1px solid #e5e5e5;
+  padding: 0 40px;
 }
 .modal-header .close {
   margin-top: -2px;
@@ -5926,12 +5947,11 @@ button.close {
 }
 .modal-body {
   position: relative;
-  padding: 15px;
+  padding: 24px 40px;
 }
 .modal-footer {
-  padding: 15px;
+  padding: 0 40px 31px 40px;
   text-align: right;
-  border-top: 1px solid #e5e5e5;
 }
 .modal-footer .btn + .btn {
   margin-bottom: 0;

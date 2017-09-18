@@ -8,7 +8,13 @@ $(document).ready(function() {
     $('.ui-state-default:contains("20")').addClass('notification');
     $('.ui-state-default:contains("22")').addClass('notification');
     $('.ui-state-default:contains("28")').addClass('notification');
-  } );
+  
+    $('.validity').datepicker({
+      range: 'period'
+      
+    });
+  });
+  
   (function() {
     if (!String.prototype.trim) {
       (function() {
@@ -41,5 +47,16 @@ $(document).ready(function() {
   
   var heightR = $("main").outerHeight();
   $('aside').css({'height':heightR}); 
+  
+  $('.tooltip').tooltip();
+  
+  $('.hint_block').mouseover(function(){
+    $(this).addClass('active');
+  })
+  $('.hint_block').mouseout(function(){
+    $(this).removeClass('active');
+  })
+  
+
 });
 

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>transport-2</title>
+    <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/font.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery-ui.css" type="text/css">
+    <link rel="stylesheet" href="css/selectize.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+  </head>
+  <body>
+    <main>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-3 aside_section">
+            <aside>
+              <div class="welcome">
+                <span>Константин Константинопольский,</span> добрый день!
+              </div>
+              <div>
+                <div class="profile_fill">
+                  <span>Профиль заполнен</span>
+                  <span>26%</span>
+                  <div class="fill"><div class="fill_active" style="width: 26%;"></div></div>
+                  <div>Запись: <span>стандартная</span></div>
+                </div>
+                <div class="panel-group" id="profile">
+                  <div class="panel">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#profile" href="#profile1">
+                        Мои данные
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="profile1" class="panel-collapse collapse in">
+                      <div class="panel-body">
+                        <div><a href="" class="active">Личные данные</a></div>
+                        <div><a href="">Мои документы</a></div>
+                        <div><a href="">Моя семья</a></div>
+                        <div><a href="">Моя квартира</a></div>
+                        <div><a href="">Мой транспорт</a></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#profile" href="#profile2">
+                        Мои заявки
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="profile2" class="panel-collapse collapse">
+                      <div class="panel-body">
+                        <div><a href="" class="active">Личные данные</a></div>
+                        <div><a href="">Мои документы</a></div>
+                        <div><a href="">Моя семья</a></div>
+                        <div><a href="">Моя квартира</a></div>
+                        <div><a href="">Мой транспорт</a></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel">
+                    <div class="panel-heading">
+                      <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#profile" href="#profile3">
+                        Уведомления
+                        </a>
+                      </h4>
+                    </div>
+                    <div id="profile3" class="panel-collapse collapse">
+                      <div class="panel-body">
+                        <div><a href="" class="active">Личные данные</a></div>
+                        <div><a href="">Мои документы</a></div>
+                        <div><a href="">Моя семья</a></div>
+                        <div><a href="">Моя квартира</a></div>
+                        <div><a href="">Мой транспорт</a></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                Рабочий стол
+              </div>
+            </aside>
+          </div>
+          <div class="col-lg-9 main_section">
+            <div class="white_bg">
+              <h1>Моя машина</h1>
+              <div class="delete_car">
+                <a href="" data-toggle="modal" data-target="#delete_car"><span></span>Удалить это ТС</a>
+              </div>
+              <h3>Основные данные</h3>
+              <form>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="form-group input input-ichiro">
+                      <label for="transport1" class="control-label input_label input_label-ichiro"><span class="input_label-content input_label-content-ichiro">Номер СТС</span></label>
+                      <input type="text" class="form-control input_field input_field-ichiro" id="transport1" value="77 08 341956">
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group input input-ichiro">
+                      <label for="transport2" class="control-label input_label input_label-ichiro"><span class="input_label-content input_label-content-ichiro">Номер ТС</span></label>
+                      <input type="text" class="form-control input_field input_field-ichiro" id="transport2" value="77 08 341956">
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group input input-ichiro">
+                      <label for="transport3" class="control-label input_label input_label-ichiro"><span class="input_label-content input_label-content-ichiro">Серия и номер свидетельства о регистрации ТС</span></label>
+                      <input type="text" class="form-control input_field input_field-ichiro" id="transport3" value="77 08 341956">
+                      <div class="hint_block">
+                        <span>?</span>
+                        <div class="hint">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group input input-ichiro">
+                      <label for="transport4" class="control-label input_label input_label-ichiro"><span class="input_label-content input_label-content-ichiro">Серия и номер паспорта ТС</span></label>
+                      <input type="text" class="form-control input_field input_field-ichiro" id="transport4" value="">
+                      <div class="hint_block">
+                        <span>?</span>
+                        <div class="hint">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group input input-ichiro">
+                      <label for="transport5" class="control-label input_label input_label-ichiro"><span class="input_label-content input_label-content-ichiro">Идентификационный номер ТС</span></label>
+                      <input type="text" class="form-control input_field input_field-ichiro" id="transport5" value="">
+                      <div class="hint_block">
+                        <span>?</span>
+                        <div class="hint">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group input input-ichiro">
+                      <label for="transport6" class="control-label input_label input_label-ichiro"><span class="input_label-content input_label-content-ichiro">Название карточки</span></label>
+                      <input type="text" class="form-control input_field input_field-ichiro" id="transport6" value="Моя машина">
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <h3>Страховка</h3>
+              <form>
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="form-group input input-ichiro">
+                      <label for="transport7" class="control-label input_label input_label-ichiro"><span class="input_label-content input_label-content-ichiro">Серия и номер полиса ОСАГО</span></label>
+                      <input type="text" class="form-control input_field input_field-ichiro" id="transport7" value="ЕЕЕ 045 9576530">
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group input input-ichiro">
+                      <label for="transport8" class="control-label input_label input_label-ichiro"><span class="input_label-content input_label-content-ichiro">Название страховой компании</span></label>
+                      <input type="text" class="form-control input_field input_field-ichiro" id="transport8" value="«Застрахуй братуху»">
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="form-group input input-ichiro">
+                      <label for="transport9" class="control-label input_label input_label-ichiro"><span class="input_label-content input_label-content-ichiro">Срок действия полиса</span></label>
+                      <input type="text" class="form-control input_field input_field-ichiro validity" id="transport9" value="">
+                    </div>
+                  </div>
+                </div>
+              </form>
+              <h3>Как вы хотите получать уведомления?</h3>
+              <div class="checkbox checkbox_group">
+                <label class="checkbox-inline">
+                  <input type="checkbox"><span></span>Браузер
+                </label>
+                <label class="checkbox-inline">
+                  <input type="checkbox"><span></span>Электронная почта
+                </label>
+              </div>
+              <div class="button_block">
+                <a href="" class="btn">Сохранить</a>
+                <a href="" class="btn btn2">Отменить</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    
+    <div class="modal fade" id="delete_car" tabindex="-1" role="dialog" aria-labelledby="delete_carLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+            <p>Вы действительно хотите удалить У804ЕР 190?</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn" data-dismiss="modal">Удалить</button>
+            <button type="button" class="btn btn2" data-dismiss="modal" aria-hidden="true">Отменить</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
+    <script src="js/jquery-ui.min.js"></script> 
+    <script src="js/classie.js"></script> 
+    <script src="js/jquery.ui.datepicker-ru.js"></script> 
+    <script src="js/selectize.min.js"></script> 
+    <script src="js/script.js"></script>  
+  </body>
+</html>
